@@ -1,0 +1,15 @@
+---
+title: "tooltip-easy"
+---
+
+Welcome to **tooltip-easy** — Markdown‑authored tooltips/popovers for Quarto.
+
+Install in any project:
+
+```bash
+quarto add USER/tooltip-easy
+```
+
+> Replace `USER` with your GitHub user or org when you publish.
+
+Below are live demos; hover or click the badges to open the popovers.

@@ -1,0 +1,21 @@
+---
+title: "Multi‑page slides"
+---
+
+::: {#slides-demo .tipset}
+::: {.tip-slide}
+**Slide A** — Inline math: $a^2+b^2=c^2$.
+:::
+::: {.tip-slide}
+**Slide B** — Code:
+
+```python
+def f(x): return x**2
+```
+:::
+::: {.tip-slide}
+**Slide C** — Images and links are fine.
+:::
+:::
+
+{{< tip label="Open slides" content-id="slides-demo" placement="bottom" maxwidth="720" >}}

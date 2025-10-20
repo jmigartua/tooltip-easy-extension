@@ -1,0 +1,16 @@
+---
+title: "Offline / no‑CDN"
+---
+
+By default, tooltip‑easy loads Tippy theme/animation CSS and Popper/Tippy UMD bundles from CDNs.  
+For fully offline or CSP‑locked environments:
+
+1. Download these assets and place them under your project (e.g., `assets/tooltip-easy/`):
+   - `@popperjs/core@2` UMD
+   - `tippy.umd.min.js`, `tippy.css`
+   - `themes/light.css`, `themes/light-border.css`
+   - `animations/scale-subtle.css`
+   - (optional fallback) `mathjax@3` **tex-chtml** bundle
+
+2. Edit `_extensions/tooltip-easy/shortcodes/tip.js` and replace the CDN URLs with your local paths.
+3. Re-render; Quarto will bundle these static files with your site.

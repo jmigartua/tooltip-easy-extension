@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "tooltip-easy • Quarto extension"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Demos"
+        menu:
+          - href: demos/hover.qmd
+            text: "Hover (default)"
+          - href: demos/click.qmd
+            text: "Click to open"
+          - href: demos/slides.qmd
+            text: "Multi‑page slides"
+          - href: demos/offline.qmd
+            text: "Offline / no‑CDN"
+  page-footer: "tooltip-easy © 2025"
+
+format:
+  html:
+    theme: cosmo
+    toc: false

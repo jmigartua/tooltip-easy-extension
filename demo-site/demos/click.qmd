@@ -1,0 +1,11 @@
+---
+title: "Click to open"
+---
+
+::: {#click-one .tipset}
+**Click‑triggered tooltip**
+
+Use `trigger="click"` to change interaction.
+:::
+
+{{< tip label="Click me" content-id="click-one" trigger="click" placement="top" >}}

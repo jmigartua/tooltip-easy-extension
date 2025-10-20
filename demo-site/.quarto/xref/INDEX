@@ -1,0 +1,17 @@
+{
+  "index.qmd": {
+    "index.html": "3f949f3a"
+  },
+  "demos/offline.qmd": {
+    "offline.html": "6746e166"
+  },
+  "demos/slides.qmd": {
+    "slides.html": "4d126879"
+  },
+  "demos/hover.qmd": {
+    "hover.html": "a12acb52"
+  },
+  "demos/click.qmd": {
+    "click.html": "450f2cc7"
+  }
+}

@@ -1,0 +1,12 @@
+---
+title: "Hover (default trigger)"
+---
+
+::: {#hover-one .tipset}
+**Hello from hover!** Inline math $E=mc^2$ typesets on open.
+
+- Works with Markdown, lists, code, etc.
+- Hidden in the page; harvested into a template at runtime.
+:::
+
+{{< tip label="Hover me" content-id="hover-one" >}}

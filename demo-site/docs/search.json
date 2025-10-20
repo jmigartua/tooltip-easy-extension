@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "tooltip-easy",
+    "section": "",
+    "text": "Welcome to tooltip-easy — Markdown‑authored tooltips/popovers for Quarto.\nInstall in any project:\nquarto add USER/tooltip-easy\n\nReplace USER with your GitHub user or org when you publish.\n\nBelow are live demos; hover or click the badges to open the popovers."
+  },
+  {
+    "objectID": "demos/click.html",
+    "href": "demos/click.html",
+    "title": "Click to open",
+    "section": "",
+    "text": "Click‑triggered tooltip\nUse trigger=\"click\" to change interaction.\n\n\n  Click me"
+  },
+  {
+    "objectID": "demos/slides.html",
+    "href": "demos/slides.html",
+    "title": "Multi‑page slides",
+    "section": "",
+    "text": "Slide A — Inline math: \\(a^2+b^2=c^2\\).\n\n\nSlide B — Code:\ndef f(x): return x**2\n\n\nSlide C — Images and links are fine.\n\n\n\n  Open slides"
+  },
+  {
+    "objectID": "demos/offline.html",
+    "href": "demos/offline.html",
+    "title": "Offline / no‑CDN",
+    "section": "",
+    "text": "By default, tooltip‑easy loads Tippy theme/animation CSS and Popper/Tippy UMD bundles from CDNs.\nFor fully offline or CSP‑locked environments:\n\nDownload these assets and place them under your project (e.g., assets/tooltip-easy/):\n\n@popperjs/core@2 UMD\ntippy.umd.min.js, tippy.css\nthemes/light.css, themes/light-border.css\nanimations/scale-subtle.css\n(optional fallback) mathjax@3 tex-chtml bundle\n\nEdit _extensions/tooltip-easy/shortcodes/tip.js and replace the CDN URLs with your local paths.\nRe-render; Quarto will bundle these static files with your site."
+  },
+  {
+    "objectID": "demos/hover.html",
+    "href": "demos/hover.html",
+    "title": "Hover (default trigger)",
+    "section": "",
+    "text": "Hello from hover! Inline math \\(E=mc^2\\) typesets on open.\n\nWorks with Markdown, lists, code, etc.\nHidden in the page; harvested into a template at runtime.\n\n\n\n  Hover me"
+  }
+]
